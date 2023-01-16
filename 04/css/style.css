@@ -1,0 +1,89 @@
+.main {
+    width: 1900px;
+    margin: 0 auto;
+    background: #E5E5E5;
+}
+.blok1 {
+    position: relative;
+    width: 300px;
+    background: #000000;
+    height: 300px;
+    top: 30px;
+    left: 450px;
+    overflow: hidden;
+}
+.blok1img1 img{
+    position: absolute;
+    width: 154.86px;
+    height: 90.94px;
+    top: 70px;
+    left: 70px;
+}
+.blok1img2 {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    top: 185px;
+    left: 130px;
+    background: linear-gradient(180deg, #2137FC 0%, #2137FB 50.01%, #FFD84B 50.04%, #FFD84B 100%);
+    border-radius: 6px;
+}
+.blok2 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #FFCE22;
+    top: -50px;
+    left: 665px;
+    z-index: 3;
+    overflow: hidden;
+}
+.blok2-blue {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background: #2137FC;
+}
+.blok2 img {
+    position: absolute;
+    transform: rotate(-0.01deg);
+    width: 205px;
+    height: 120px;
+    left: 50px;
+    top: 90px;
+}
+.blok3 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    border-top: 2px solid #2137FC;
+    border-bottom: 2px solid #2137FC;
+    top: -120px;
+    left: 925px;
+}
+.blok3img {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 250px;
+    height: 250px;
+    background: #FFCE22;
+    border-radius: 50%;
+}
+.blok3-bg {
+    position: relative;
+}
+.blok3-bg img:first-child {
+    width: 250px;
+    z-index: 1;
+}
+.blok3-bg:last-child {
+    width: 205px;
+}
+.glyp{
+    width: 205px;
+    position: absolute;
+    top: 120px;
+    left: 22px;
+}
